@@ -1,0 +1,21 @@
+{
+    "app": {
+        "name": "medsos"
+    },
+    "web": {
+        "port": ":3000",
+        "prefork": false
+    },
+    "log": {
+        "leverl": 6
+    },
+    "database": {
+        "mongo": {
+            "url": "mongodb://localhost:27017/medsos",
+            "dbname": "medsos"
+        }
+    },
+    "jwt": {
+        "secret": "erhfeygfyegrfeifjo"
+    }
+}
